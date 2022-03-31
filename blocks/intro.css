@@ -1,0 +1,116 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.intro__container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: left;
+    width: 61.3vw;
+    margin-left: 11.56vw;
+    margin-top: 92px;
+    bottom: 0;
+}
+
+.intro__container-title {
+    position: relative;
+    align-self: flex-start;
+    width: 100%;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-weight: 900;
+    font-style: black;
+    font-size: 54px;
+    line-height: 58px;
+  }
+
+  .intro__container-content{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: left;
+    width: 53.9vw;
+  }
+
+.intro__container-content-quote {
+    position: relative;
+    align-self: flex-start;
+    width: 53.9vw;
+    margin-top: 40px;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__container-content-name {
+    position: relative;
+    align-self: flex-end;
+    width: 53.9vw;
+    margin-top: 10px;
+    padding: 0;
+    text-align: right;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-style: regular;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__container-content-description {
+    position: relative;
+    width: 53.9vw;
+    margin-top: 32px;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-style: regular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163%;
+  }
+
+
+  @media (max-width: 768px) {
+    
+    }
+    
+
+@media (max-width: 320px) {
+
+  .intro__container-title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 90vw;  
+  }
+
+  .intro__container {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .intro__container-content-quote {
+    font-size: 24px;
+    line-height: 30px;
+    width: 90vw;
+  }
+  .intro__container-content-name {
+    font-size: 24px;
+    line-height: 34px;
+    width: 90vw;
+    align-self: flex-start;
+  }
+  
+  .intro__container-content-description {
+    font-size: 16px;
+    line-height: 163%;
+    width: 90vw;
+  }    
+}

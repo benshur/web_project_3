@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+   }
+
+     
+   .footer__copyright {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-top: 92px;
+    margin-bottom: 24px;
+   }
+
+   @media (max-width: 768px) {
+    .footer__copyright{
+      font-size: 14px;
+      line-height: 14px;
+      margin-top: 88px;
+
+    }
+  }
+
+   @media (max-width: 320px) {
+    .footer__copyright{
+      font-size: 14px;
+      line-height: 14px;
+      margin-top: 64px;
+
+    }
+  }

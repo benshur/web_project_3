@@ -1,0 +1,196 @@
+.places { 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+.places__place {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 77.1vw;
+    align-self: center;
+    column-gap: 3.125vw;
+    row-gap: 3.75vw;
+    margin-top: 80px;
+    grid-template-areas:
+    "title artist"
+    "image txt"
+    "button txt";
+    }
+
+.place__title {
+    grid-area: title;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    max-width: 35vw;
+    color: #FFFFFF;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+.place__artist {
+    grid-area: artist;
+    display: flex;    
+    flex-direction: column; 
+    color: white;
+    align-self: flex-end;
+    }
+
+
+.place__artist-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;    
+    }
+
+.place__artist-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    color: #FFFFFF;  
+    margin: 0;  
+    padding: 0;
+    margin-top: 8px;
+    }
+
+.place__image {
+    grid-area: image;
+    object-fit: cover;
+    }
+
+.place__paragraphs {
+    grid-area: txt;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    width: 100%;
+   }
+
+
+.place__paragraph{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    
+
+    }
+
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+
+.place__button {
+    grid-area: button;
+    background: #0278FE;
+    display: flex;
+    flex-direction: row;
+    width: 256px;
+    height: 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    }
+
+.place__button:hover {
+        background: #0063D2;
+        ;
+    }
+
+.place__button-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    width: 208px;
+    height: 22px;
+    }
+
+
+@media (max-width: 768px) {
+
+    .places__place {
+        width: 93.75vw;
+
+    }
+
+    .place__title {
+      font-size: 42px;
+      line-height: 46px;
+    }
+    .place__image {
+        width: 340px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .places__place {
+        grid-template-areas:
+        "title"
+        "artist"
+        "image" 
+        "txt"
+        "button" 
+        ;
+        width: 93.75vw;
+
+    }
+    .place__image {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        min-width: 288px;
+        margin-left: 16px;
+    }
+    .place__artist-name {
+        min-width: 288px;
+        
+    }
+
+    .place__artist {
+        min-width: 288px;
+        margin-left: 16px;
+        margin-top: 30px;
+    }
+    
+
+    .place__button {
+        justify-self: center;
+        margin-top: 30px;
+}
+}
