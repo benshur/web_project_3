@@ -23,7 +23,7 @@
     "button txt";
     }
 
-.place__title {
+.places__place-title {
     grid-area: title;
     font-family: 'Inter';
     font-style: normal;
@@ -39,7 +39,7 @@
     }
 
 
-.place__artist {
+.places__place-artist {
     grid-area: artist;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     }
 
 
-.place__artist-link {
+.places__place-artist-link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,7 @@
     color: #AAAAAA;
     }
 
-.place__artist-name {
+.places__place-artist-name {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -71,12 +71,12 @@
     margin-top: 8px;
     }
 
-.place__image {
+.places__place-image {
     grid-area: image;
     object-fit: cover;
     }
 
-.place__paragraphs {
+.places__place-paragraphs {
     grid-area: txt;
     font-family: 'Inter';
     font-style: normal;
@@ -88,7 +88,7 @@
    }
 
 
-.place__paragraph{
+.places__place-paragraph{
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -97,12 +97,12 @@
 
     }
 
-.place__paragraph:last-child {
+.places__place-paragraph:last-child {
     margin-bottom: 0;
 }
 
 
-.place__button {
+.places__place-button {
     grid-area: button;
     background: #0278FE;
     display: flex;
@@ -115,11 +115,11 @@
     justify-content: center;
     }
 
-.place__button:hover {
+.places__place-button:hover {
     background: #0063D2;
     }
 
-.place__button-text {
+.places__place-button-text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -143,11 +143,11 @@
 
     }
 
-    .place__title {
+    .places__place-title {
       font-size: 42px;
       line-height: 46px;
     }
-    .place__image {
+    .places__place-image {
         width: 340px;
     }
 }
@@ -164,30 +164,30 @@
         width: 93.75vw;
 
     }
-    .place__image {
+    .places__place-image {
         width: 300px;
         margin-top: 30px;
     }
 
-    .place__title {
+    .places__place-title {
         font-size: 32px;
         line-height: 35px;
         min-width: 288px;
         margin-left: 16px;
     }
-    .place__artist-name {
+    .places__place-artist-name {
         min-width: 288px;
         
     }
 
-    .place__artist {
+    .places__place-artist {
         min-width: 288px;
         margin-left: 16px;
         margin-top: 30px;
     }
     
 
-    .place__button {
+    .places__place-button {
         justify-self: center;
         margin-top: 30px;
 }
