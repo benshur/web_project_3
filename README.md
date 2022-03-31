@@ -16,4 +16,4 @@ I've learned to work with Figma and get all brief information from the Figma des
   
 **The link to GitHub Pages**  
   
-* [Link to the project on GitHub Pages](https://www.)
+* [Link to the project on GitHub Pages](https://benshur.github.io/web_project_3/)
