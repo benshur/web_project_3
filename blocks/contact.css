@@ -56,7 +56,6 @@
     color: white;
     font-weight: 900;
     font-style: normal;
-    font-weight: 500;
     font-size: 72px;
     line-height: 76px;
     margin: 0;
@@ -96,10 +95,9 @@
   .contact__image-text-buyTickets-text {
     font-family: 'Inter', Arial, sans-serif;
     color: white;
-    font-weight: 400;
     font-style: normal;
     font-style: regular;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin: 0;
@@ -132,14 +130,10 @@
   .contact__container {
     width: 100%;
     height: 254px;
-    margin: auto; 
-    margin-top: 64px; 
+    margin: auto;
+    margin-top: 64px;
   }
 
-  .contact__image-text{
-    text-align: center;
-    
-  }
 
   .contact__image {
     object-fit: cover;
