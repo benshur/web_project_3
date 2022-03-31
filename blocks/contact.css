@@ -78,6 +78,21 @@
     margin-top: 32px;
   }
 
+  .contact__image-text-subtitle-p{
+    text-align: center;
+    width: 320px;
+    font-family: 'Inter', Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 22px;
+    text-shadow: #000000 25%;
+    margin: 0;
+    padding: 0;
+   }
+
   .contact__image-text-buyTickets{
     display: flex;
     flex-direction: column;
@@ -161,5 +176,7 @@
     line-height: 16px;
     margin-top: 16px;
   }
+
+  
 
 }
