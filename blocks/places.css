@@ -116,8 +116,7 @@
     }
 
 .place__button:hover {
-        background: #0063D2;
-        ;
+    background: #0063D2;
     }
 
 .place__button-text {
@@ -159,9 +158,9 @@
         grid-template-areas:
         "title"
         "artist"
-        "image" 
+        "image"
         "txt"
-        "button" 
+        "button"
         ;
         width: 93.75vw;
 
