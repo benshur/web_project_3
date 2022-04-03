@@ -17,16 +17,17 @@
         <header class="header">
             <img class="logo" src="./images/__logo.svg"
             alt="Practicum Art Gallery Logo" />
-          <div class="header__lead">
-            <h1 class="header__lead-title">From Homeland to Homeland</h1>
-            <h3 class="header__lead-subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</h3>
-            <div class="header__lead-image">
-              <img src="./images/kalegin-michail-179870-unsplash.jpg" class="header__lead-image-image" alt="Sunset over bay">
-              <div class= "header__lead-image-overlay"></div>
-            </div>
-          </div>
         </header>
-
+        <section class="lead">
+            <h1 class="lead__title">From Homeland to Homeland</h1>
+            <p class="lead__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
+            <div class="lead__image">
+              <img src="./images/kalegin-michail-179870-unsplash.jpg" class="lead__image-image" alt="Sunset over bay">
+              <div class= "lead__image-overlay"></div>
+            </div>
+        </section>
+        
+      <main class="content">
         <section class="intro"> 
           <div class="intro__container">
             <h2 class="intro__container-title">Know the places your online pals come from a little better</h2>
@@ -40,31 +41,23 @@
         
 
         <section class="gallery">
-          <div class="gallery__container">
-             <div class="gallery__container-column">
-              <img src="./images/__item-7.jpg" alt="Muramvya, Burundi">
-              <img src="./images/__item.jpg" alt="Green field">
-             </div>
-             <div class="gallery__container-column">
-               <img src="./images/__item-6.jpg" alt="Muramvya, Burundi">
-               <img src="./images/__item-1.jpg" alt="Street sign">
-             </div>
-             <div class="gallery__container-column">
-               <img src="./images/__item-5.jpg" alt="Berea, USA">
-               <img src="./images/__item-2.jpg" alt="Cricieth, Wales">
-             </div>
-             <div class="gallery__container-column">
-               <img src="./images/__item-4.jpg" alt="Kyiv, Ukraine">
-               <img src="./images/__item-3.jpg" alt="Muramvya, Burundi">
-             </div>
-          </div>
+          <ul class="gallery__container">          
+              <li><img src="./images/__item-7.jpg" class="gallery__container-image" alt="Muramvya, Burundi"></li>
+              <li><img src="./images/__item.jpg" class="gallery__container-image" alt="Green field"></li>
+              <li><img src="./images/__item-6.jpg" class="gallery__container-image" alt="Muramvya, Burundi"></li>
+              <li><img src="./images/__item-1.jpg" class="gallery__container-image" alt="Street sign"></li>
+              <li><img src="./images/__item-5.jpg" class="gallery__container-image" alt="Berea, USA"></li>
+              <li><img src="./images/__item-2.jpg" class="gallery__container-image" alt="Cricieth, Wales"></li>                          
+              <li><img src="./images/__item-4.jpg" class="gallery__container-image" alt="Kyiv, Ukraine"></li>
+              <li><img src="./images/__item-3.jpg" class="gallery__container-image" alt="Muramvya, Burundi"></li>           
+          </ul>
         </section>
 
         <section class="places">
           <article class="places__place">
             <h3 class="places__place-title">Kyiv, Ukraine</h3>
             <div class="places__place-artist">
-              <div class="places__place-artist-link">Artist</div>
+              <a href="" class="places__place-artist-link">Artist</a>
               <p class="places__place-artist-name">Natalia Dolgushina, content producer</p>
             </div>
             <img class="places__place-image" src="./images/__image.jpg" alt="Kyiv, Ukraine" />
@@ -75,12 +68,12 @@
               <p class="places__place-paragraph">The city itself is a mix of pre-revolution, post-war and soviet architecture, all of it sprinkled with modified balconies. If you're on the right bank of the Dnipro, the landscape is difficult to traverse for people on bikes and those wearing heels. 
               The left bank is considered far less interesting and prestigious though, even by people who live on the far outskirts of the right one.</p>
             </div>
-            <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="places__place-button"><p class="places__place-button-text">Buy this artwork as NFT</p></a>
+            <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="places__place-button">Buy this artwork as NFT</a>
           </article>
           <article class="places__place">
               <h3 class="places__place-title">Cricieth, Wales</h3>
               <div class="places__place-artist">
-                <div class="places__place-artist-link">Artist</div>
+                <a href="" class="places__place-artist-link">Artist</a>
                 <p class="places__place-artist-name">Steffan Warren, lead editor</p>
                 <p class="places__place-artist-name">Kseniya Glagoleva, project manager</p>
               
@@ -100,7 +93,7 @@
               <article class="places__place">
                   <h3 class="places__place-title">Berea, USA</h3>
                   <div class="places__place-artist">
-                     <div class="places__place-artist-link">Artist</div>
+                    <a href="" class="places__place-artist-link">Artist</a>
                      <p class="places__place-artist-name">Travis Turner, author and editor</p>
                   </div>
                   <img class="places__place-image" src="./images/__image-2.jpg" alt="Berea, USA"/>
@@ -119,7 +112,7 @@
                   <article class="places__place">
                       <h3 class="places__place-title">Muramvya, Burundi</h3>
                       <div class="places__place-artist">
-                          <div class="places__place-artist-link">Artist</div>
+                        <a href="" class="places__place-artist-link">Artist</a>
                           <p class="places__place-artist-name">Grevisse Kenguruka, tech editor</p>
                       </div>
                       <img class="places__place-image" src="./images/__image-3.jpg" alt="Muramvya, Burundi" />
@@ -139,9 +132,9 @@
                       <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="places__place-button"><p class="places__place-button-text">Buy this artwork as NFT</p></a>
                       </article>
                       <article class="places__place">
-                          <h3 class="places__place-title">Tel-Aviv, Israel</h3>
+                          <h2 class="places__place-title">Tel-Aviv, Israel</h2>
                           <div class="places__place-artist">
-                              <div class="places__place-artist-link">Artist</div>
+                            <a href="" class="places__place-artist-link">Artist</a>
                               <p class="places__place-artist-name">Ben Shur</p>
                           </div>
                           <img class="places__place-image" src="./images/__image-4.jpg" alt="Tel-Aviv, Israel"/>
@@ -162,8 +155,8 @@
         </section>
 
         <section id="contact" class="contact">
-           <div class="contact__container">
-            <div class="contact__image">
+              <div class="contact__image">
+                <img src="./images/__background.jpg" class="contact__image-image" alt="Countryside scenery">
                 <div class= "contact__image-overlay"></div>
                 <div class= "contact__image-text">
                     <h2 class="contact__image-text-title">Visit us</h2>
@@ -172,14 +165,12 @@
                       <p class="contact__image-text-subtitle-p">Practicum Art Gallery</p>
                       <p class="contact__image-text-subtitle-p">404 Tim Berners-Lee Ave</p>
                     </div>
-                    <div class="contact__image-text-buyTickets">
-                    <p class="contact__image-text-buyTickets-text">Buy tickets</p>
-                    </div>
+                    <a href="" class="contact__image-text-tickets">Buy tickets</a>
                 </div>
-            </div>
-           </div>
+              </div>
+           
         </section>
-      
+      </main>
         
         <footer class="footer">
           <p class="footer__copyright"> © 2022 Ben Shur </p>
