@@ -19,11 +19,12 @@
     position: relative;
     align-self: flex-start;
     width: 100%;
+    margin-top: 0;
     padding: 0;
     font-family: 'Inter', Arial, sans-serif;
     color: white;
     font-weight: 900;
-    font-style: black;
+    font-style: normal;
     font-size: 54px;
     line-height: 58px;
   }
@@ -33,14 +34,15 @@
     flex-direction: column;
     align-self: flex-start;
     align-items: left;
-    width: 53.9vw;
+    max-width: 690px;
   }
 
 .intro__container-content-quote {
     position: relative;
     align-self: flex-start;
-    width: 53.9vw;
+    width: 690px;
     margin-top: 40px;
+    margin-bottom: 0;
     padding: 0;
     font-family: 'Inter', Arial, sans-serif;
     color: white;
@@ -53,8 +55,9 @@
   .intro__container-content-name {
     position: relative;
     align-self: flex-end;
-    width: 53.9vw;
+    width: 690px;
     margin-top: 10px;
+    margin-bottom: 0;
     padding: 0;
     text-align: right;
     font-family: 'Inter', Arial, sans-serif;
@@ -65,10 +68,26 @@
     line-height: 34px;
   }
 
+
+  @media only screen and (min-width: 1281px) {
+
+    .intro {
+      max-width: 984px;
+    }
+
+    .intro__container {
+      max-width: 785px;
+      margin: 0;
+      padding: 0;
+      margin-top: 92px;
+    }
+  }
+
   .intro__container-content-description {
     position: relative;
-    width: 53.9vw;
+    width: 690px;
     margin-top: 32px;
+    margin-bottom: 0;
     padding: 0;
     font-family: 'Inter', Arial, sans-serif;
     color: white;
@@ -79,38 +98,60 @@
   }
 
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
+    .intro__container {
+      max-width: 720px;
+      margin-left: 5vw;
+    }
+  
+    .intro__container-title {
+      width: 93.75vw;  
+    }
+  
+    .intro__container-content-quote {
+      max-width: 93.75vw;
+    }
+    .intro__container-content-name {
+      max-width: 93.75vw;
+      align-self: flex-start;
+    }
     
+    .intro__container-content-description {
+      max-width: 93.75vw;
+    }    
     }
     
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
+
+  
+  .intro__container {
+    width: 288px;
+    margin-left: 5vw;
+    margin-top: 64px;
+  }
 
   .intro__container-title {
     font-size: 32px;
     line-height: 35px;
-    width: 90vw;  
+    width: 288px;  
   }
 
-  .intro__container {
-    width: 90vw;
-    margin-left: 5vw;
-  }
   .intro__container-content-quote {
     font-size: 24px;
     line-height: 30px;
-    width: 90vw;
+    width: 288px;
   }
   .intro__container-content-name {
     font-size: 24px;
     line-height: 34px;
-    width: 90vw;
+    width: 288px;
     align-self: flex-start;
   }
   
   .intro__container-content-description {
     font-size: 16px;
     line-height: 163%;
-    width: 90vw;
+    width: 288px;
   }    
 }
