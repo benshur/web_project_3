@@ -5,7 +5,7 @@
     align-self: center;
     align-content: center;
     max-width: 984px;
-    margin-top: 7.18vw;
+    margin-top: 7.1875vw;
     bottom: 0;
 }
 
@@ -22,7 +22,6 @@
     font-style: normal;
     font-size: 96px;
     line-height: 100px;
-    margin-top: 7.1875vw;
   }
 
   .lead__subtitle {
@@ -69,8 +68,12 @@
   
   
   @media only screen and (min-width: 1281px) {
-    .lead__title {
+    .lead {
         margin-top: 92px;
+    }
+
+    .lead__subtitle {
+        margin-top: 32px;
     }
   }
 
