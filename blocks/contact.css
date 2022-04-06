@@ -11,16 +11,12 @@
   margin: auto;
   align-items: center;
   justify-content: center;
+  background: url('../images/__background.jpg');
+  background-size: cover;
   width: 92.5vw;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   margin-top: 7.1875vw;    
-}
-
-.contact__image-image {
-  width: 100%;
-  height: 100%;
-  z-index: 0;
 }
 
 .contact__image-overlay {
@@ -40,7 +36,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     align-self: center;
     font-family: 'Inter', Arial, sans-serif;
     width: 51.25vw;
@@ -87,7 +82,7 @@
     padding: 0;
    }
 
-  .contact__image-text-tickets{
+  .contact__image-text-tickets {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -108,6 +103,10 @@
     text-decoration: none;
   }
 
+  .contact__image-text-tickets:hover {
+    background: #0063D2;
+    }
+
   @media only screen and (min-width: 1281px) {
 
     .contact {
@@ -120,28 +119,47 @@
       margin-top: 92px;   
     }
 
-    .contact__image-image {
-      max-height: 740px;
-    }
-
     .contact__image-overlay {
-      max-height: 740px;
+      min-height: 740px;
     }
   }
 
 @media only screen and (max-width: 768px) {
     .contact__image {
       width: 100%;
-      height: 746px;
+      min-height: 746px;
       margin: auto;
-      margin-top: 107px;
+      margin-top: 88px;
     }
+    .contact__image-overlay {
+      min-height: 746px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+  .contact__image {
+    width: 100%;
+    min-height: 580px;
+    margin: auto;
+    margin-top: 107px;
+  }
+  .contact__image-overlay {
+    min-height: 580px;
+  }
+
+  .contact__image-text-title {
+    width: 288px;
+    font-size: 48px;
+    line-height: 46px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .contact__image {
-    height: 254px;
-    object-fit: cover;
+    min-height: 254px;
     margin-top: 64px;
+  }
+  .contact__image-overlay {
+    min-height: 254px;
   }
 
   .contact__image-text {
@@ -160,5 +178,9 @@
     line-height: 16px;
     margin-top: 16px;
     justify-self: center;
+  }
+
+  .contact__image-text-tickets{
+    margin-top: 16px;
   }
 }

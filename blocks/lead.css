@@ -5,7 +5,7 @@
     align-self: center;
     align-content: center;
     max-width: 984px;
-    margin-top: 7.1875vw;
+    margin-top: 92px;
     bottom: 0;
 }
 
@@ -79,7 +79,9 @@
 
 
   @media only screen and (max-width: 768px) {
-    
+    .lead {
+      margin-top: 88px;
+  }
     .lead__title {
       width: 93.75vw;
     }
@@ -87,9 +89,23 @@
       width: 93.75vw;
     }
     .lead__image {
-        margin-top: 36px;
+      margin-top: 36px;
     }
 }
+
+@media only screen and (max-width: 580px) {
+  .lead__title {
+    width: 90vw;
+    font-size: 40px;
+    line-height: 44px;
+ }
+  .lead__subtitle {
+    width: 90vw;
+    font-size: 16px;
+    line-height: 20px;
+}
+}
+
 @media only screen and (max-width: 320px) {
   .lead {
       width: 100%;  
