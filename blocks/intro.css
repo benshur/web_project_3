@@ -130,6 +130,10 @@
     }
     
   @media only screen and (max-width: 580px) {
+
+    .intro__container {s
+      margin-top: 64px;
+    }
     .intro__container-title {
       font-size: 32px;
       line-height: 35px;

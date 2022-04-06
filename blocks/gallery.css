@@ -40,11 +40,15 @@
   }
 
   @media only screen and (max-width: 580px) {
+
+    .gallery__container {
+      row-gap: 12px;
+      margin-top: 90px;
+    }
     .gallery__container-image {
       background-size: cover;
       width: 310px;
       height: 232px;
-      
       }
 }
   
