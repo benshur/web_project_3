@@ -43,7 +43,6 @@
 
     .gallery__container {
       row-gap: 12px;
-      margin-top: 90px;
     }
     .gallery__container-image {
       background-size: cover;
@@ -55,14 +54,13 @@
   
   @media only screen and (max-width: 320px) {
 
+    .gallery__container {
+      row-gap: 12px;
+      margin-top: 90px;
+    }
+
     .gallery__container-image {
       width: 288px;
       height: 216px;   
-    }
-
-    .gallery__container {
-      column-gap: 12px;
-      row-gap: 12px;
-      margin-top: 90px;
     }
   }

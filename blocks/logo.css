@@ -3,10 +3,17 @@
     align-self: center;
 }
 
+@media only screen and (max-width: 580px) {
+  .logo {
+    width: 250px;
+    height: 62.5px;
+    margin-top: 20px;
+  }
+}
+
 @media only screen and (max-width: 320px) {
     .logo {
       width: 200px;
       height: 51.46px;
-      margin-top: 20px;
-    }
   }
+}

@@ -166,7 +166,6 @@
 
     .places__place {
         width: 93.75vw;
-        margin-top: 72px;
         row-gap: 48px;
     }
 
@@ -196,6 +195,8 @@
         "image"
         "txt"
         "button";
+        column-gap: 0;
+        row-gap: 30px;
         width: 95vw;
         margin-top: 72px;    
 }
@@ -209,16 +210,8 @@
 @media only screen and (max-width: 320px) {
 
     .places__place {
-        grid-template-areas:
-        "title"
-        "artist"
-        "image"
-        "txt"
-        "button";
         width: 100%;
         margin-top: 48px;
-        column-gap: 0;
-        row-gap: 30px;
     }
 
     .places__place:first-child {
