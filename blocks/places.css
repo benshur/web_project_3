@@ -156,7 +156,7 @@
             margin-top: 72px;    
     }
 
-    .places__place-image {
+        .places__place-image {
         object-fit: cover;
     }
 }
@@ -183,11 +183,11 @@
     }
 
     .places__place-paragraph{
-        line-height: 29px;
+        line-height: 26px;
         }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 680px) {
     .places__place {
         grid-template-areas:
         "title"
@@ -197,13 +197,22 @@
         "button";
         column-gap: 0;
         row-gap: 30px;
-        width: 95vw;
+        /*width: 95vw;*/
         margin-top: 72px;    
 }
+    
+    
+}
+
+@media only screen and (max-width: 580px) {
 
     .places__place-image {
-        width: 310px;
-}
+        width: 300px;    
+    }
+    .places__place-paragraph{
+        font-size: 16px;
+        line-height: 26px; 
+    }
 }
 
 
