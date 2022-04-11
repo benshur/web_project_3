@@ -34,7 +34,7 @@
     flex-direction: column;
     align-self: flex-start;
     justify-items: left;
-    max-width: 87.9%;
+    max-width: 720px;
   }
 
 .intro__container-content-quote {

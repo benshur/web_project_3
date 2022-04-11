@@ -5,7 +5,7 @@
     align-self: center;
     align-content: center;
     max-width: 984px;
-    margin-top: 92px;
+    margin-top: 90px;
     bottom: 0;
 }
 
@@ -37,7 +37,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    margin-top: 2.5vw;
+    margin-top: 32px;
   }
 
   .lead__image {
@@ -68,10 +68,7 @@
   
   
   @media only screen and (min-width: 1281px) {
-    .lead {
-        margin-top: 92px;
-    }
-
+    
     .lead__subtitle {
         margin-top: 32px;
     }
@@ -79,11 +76,9 @@
 
 
   @media only screen and (max-width: 768px) {
-    .lead {
-      margin-top: 88px;
-  }
+    
     .lead__title {
-      width: 93.75vw;
+      width: 93.75vw; 
     }
     .lead__subtitle {
       width: 93.75vw;
