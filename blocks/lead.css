@@ -66,14 +66,6 @@
   }
 
   
-  
-  @media only screen and (min-width: 1281px) {
-    
-    .lead__subtitle {
-        margin-top: 32px;
-    }
-  }
-
 
   @media only screen and (max-width: 768px) {
     
@@ -82,7 +74,6 @@
     }
     .lead__subtitle {
       width: 93.75vw;
-      margin-top: 32px;
     }
     .lead__image {
       margin-top: 36px;
@@ -93,7 +84,7 @@
 
   .lead {
     width: 100%;
-    margin-top: 50.54px;
+    margin-top: 50.15px;
 
   }
   .lead__title {
