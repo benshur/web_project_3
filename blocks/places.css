@@ -183,6 +183,10 @@
     .places__place-image {
         width: 340px;    
     }
+    .places__place-paragraphs {
+        font-size: 16px;
+        line-height: 26px;
+    }
 
     .places__place-paragraph{
         font-size: 16px;
