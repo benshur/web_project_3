@@ -3,6 +3,7 @@
     flex-direction: column;
     margin:auto;
     align-items: center;
+    max-width: 1184px;
    }
 
      
@@ -19,7 +20,7 @@
 
    @media only screen and (min-width: 1281px) {
     .footer {
-      max-width: 1280px;
+      max-width: 1184px;
     }
   }
 
